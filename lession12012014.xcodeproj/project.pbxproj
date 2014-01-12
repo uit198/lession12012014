@@ -23,6 +23,11 @@
 		8FF75EB01882280D00BC5400 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF75E8B1882280C00BC5400 /* Foundation.framework */; };
 		8FF75EB81882280D00BC5400 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FF75EB61882280D00BC5400 /* InfoPlist.strings */; };
 		8FF75EBB1882280D00BC5400 /* lession12012014Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF75EBA1882280D00BC5400 /* lession12012014Tests.m */; };
+		8FF75EEB188250C500BC5400 /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF75EE2188250C500BC5400 /* Employee.m */; };
+		8FF75EEC188250C500BC5400 /* EmployeeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF75EE4188250C500BC5400 /* EmployeeManager.m */; };
+		8FF75EED188250C500BC5400 /* EmployeeOffice.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF75EE6188250C500BC5400 /* EmployeeOffice.m */; };
+		8FF75EEE188250C500BC5400 /* EmployeeProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF75EE8188250C500BC5400 /* EmployeeProduct.m */; };
+		8FF75EEF188250C500BC5400 /* EmployeeSale.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF75EEA188250C500BC5400 /* EmployeeSale.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +63,16 @@
 		8FF75EB71882280D00BC5400 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8FF75EB91882280D00BC5400 /* lession12012014Tests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = lession12012014Tests.h; sourceTree = "<group>"; };
 		8FF75EBA1882280D00BC5400 /* lession12012014Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lession12012014Tests.m; sourceTree = "<group>"; };
+		8FF75EE1188250C500BC5400 /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
+		8FF75EE2188250C500BC5400 /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		8FF75EE3188250C500BC5400 /* EmployeeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeManager.h; sourceTree = "<group>"; };
+		8FF75EE4188250C500BC5400 /* EmployeeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeManager.m; sourceTree = "<group>"; };
+		8FF75EE5188250C500BC5400 /* EmployeeOffice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeOffice.h; sourceTree = "<group>"; };
+		8FF75EE6188250C500BC5400 /* EmployeeOffice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeOffice.m; sourceTree = "<group>"; };
+		8FF75EE7188250C500BC5400 /* EmployeeProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeProduct.h; sourceTree = "<group>"; };
+		8FF75EE8188250C500BC5400 /* EmployeeProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeProduct.m; sourceTree = "<group>"; };
+		8FF75EE9188250C500BC5400 /* EmployeeSale.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeSale.h; sourceTree = "<group>"; };
+		8FF75EEA188250C500BC5400 /* EmployeeSale.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeSale.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +132,7 @@
 		8FF75E8F1882280D00BC5400 /* lession12012014 */ = {
 			isa = PBXGroup;
 			children = (
+				8FF75EC41882281700BC5400 /* model */,
 				8FF75E981882280D00BC5400 /* AppDelegate.h */,
 				8FF75E991882280D00BC5400 /* AppDelegate.m */,
 				8FF75EA11882280D00BC5400 /* MainStoryboard.storyboard */,
@@ -158,6 +174,23 @@
 				8FF75EB61882280D00BC5400 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8FF75EC41882281700BC5400 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				8FF75EE1188250C500BC5400 /* Employee.h */,
+				8FF75EE2188250C500BC5400 /* Employee.m */,
+				8FF75EE3188250C500BC5400 /* EmployeeManager.h */,
+				8FF75EE4188250C500BC5400 /* EmployeeManager.m */,
+				8FF75EE5188250C500BC5400 /* EmployeeOffice.h */,
+				8FF75EE6188250C500BC5400 /* EmployeeOffice.m */,
+				8FF75EE7188250C500BC5400 /* EmployeeProduct.h */,
+				8FF75EE8188250C500BC5400 /* EmployeeProduct.m */,
+				8FF75EE9188250C500BC5400 /* EmployeeSale.h */,
+				8FF75EEA188250C500BC5400 /* EmployeeSale.m */,
+			);
+			name = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +306,11 @@
 				8FF75E961882280D00BC5400 /* main.m in Sources */,
 				8FF75E9A1882280D00BC5400 /* AppDelegate.m in Sources */,
 				8FF75EA61882280D00BC5400 /* ViewController.m in Sources */,
+				8FF75EEB188250C500BC5400 /* Employee.m in Sources */,
+				8FF75EEC188250C500BC5400 /* EmployeeManager.m in Sources */,
+				8FF75EED188250C500BC5400 /* EmployeeOffice.m in Sources */,
+				8FF75EEE188250C500BC5400 /* EmployeeProduct.m in Sources */,
+				8FF75EEF188250C500BC5400 /* EmployeeSale.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -446,6 +484,7 @@
 				8FF75EC01882280D00BC5400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8FF75EC11882280D00BC5400 /* Build configuration list for PBXNativeTarget "lession12012014Tests" */ = {
 			isa = XCConfigurationList;
@@ -454,6 +493,7 @@
 				8FF75EC31882280D00BC5400 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
